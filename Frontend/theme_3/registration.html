@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Сайт, созданный Максимом Кормильцевым" />
+    <meta http-equiv="Content-Type" content="text/html">
+    <base href="https://maksk89.github.io/Universitarium_courses/Frontend/theme_3" target="_blank">
+    <title>Форма регистрации</title>
+</head>
+<body>
+<h1>Сведения о пользователе</h1>
+<form action="https://echo.MaksimK.ru" method="get">
+    <label>
+        Имя пользоователя <input type="text" name="name">
+    </label>
+    <br>
+    <br>
+    <label>
+        Электронная почта:
+        <input type="email" name="email">
+    </label>
+    <label>
+        <br>
+        <br>
+        Телефон <input type="text" name="phone">
+    </label>
+    <br>
+    <br>
+    <label>
+        Город <input type="text" name="city">
+    </label>
+    <br>
+    <br>
+
+
+    Откуда узнали о сайте
+    <select name="type1">
+        <option value="internet">из интернета</option>
+        <option value="friends">от друзей</option>
+    </select>
+
+    <br>
+    <input type="checkbox" name="mailing" id="mailing-field" >
+    <label for="mailing-field">Подписаться на рассылку </label>
+    <br>
+    <br>
+    <label for="comment-field">Дополнительная информация</label>
+
+    <textarea name="comment" id="comment-field" rows="10"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Отменить">
+</form>
+<a href="table.html">Таблица зарегистрованных пользователей</a>
+</body>
+</html>
+
